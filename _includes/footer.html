@@ -196,7 +196,7 @@
         map.mapTypes.set('Styled', styledMapType);
         // The marker, positioned at Uluru
         var icon = {
-            url: "./assets/images/map-marker.png", // url
+            url: "{{ site.baseurl }}/assets/images/map-marker.png", // url
             scaledSize: new google.maps.Size(50, 50), // scaled size
         };
         var marker = new google.maps.Marker({
