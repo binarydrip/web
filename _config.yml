@@ -28,6 +28,7 @@ exclude:
     - package.json
 include:
     - _pages
+    - .htaccess
 
 # Authors
 authors:
