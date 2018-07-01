@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/commons.bundle.css">
+
+
+{% if page.permalink == "/" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/home.bundle.css">
+{% elsif page.permalink == "/about/" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/about.bundle.css">
+{% elsif page.permalink == "/contact/" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/contact.bundle.css">
+{% elsif page.permalink == "/404/" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/notFound.bundle.css">
+{% elsif page.permalink == "/portfolio/" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/portfolio.bundle.css">
+{% elsif page.permalink == "/services/" %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/services.bundle.css">
+{% else %}
+
+{% endif %}
